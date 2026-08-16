@@ -1,8 +1,8 @@
 %% settings (edit these, then run this section)
-sourceFolder = '/Users/sedaakbiyik/Dropbox/Stanford/Projects/dyloc_development/stimuli_to_test';
-outputFolder = '/Users/sedaakbiyik/Dropbox/Stanford/Projects/dyloc_development/stimuli_to_test/dyloc_stimuli_std';
-outputFolderHQ = '/Users/sedaakbiyik/Dropbox/Stanford/Projects/dyloc_development/stimuli_to_test/dyloc_stimuli_stdHQ';
-mappingCsv   = '/Users/sedaakbiyik/Dropbox/Stanford/Projects/dyloc_development/stimuli_to_test/dyloc_stimuli_std/dyloc_rename_mapping.csv';
+sourceFolder = fullfile(pwd, 'stimuli');
+outputFolder = fullfile(sourceFolder, 'dyloc_stimuli_std');
+outputFolderHQ = fullfile(sourceFolder, 'dyloc_stimuli_stdHQ');
+mappingCsv   = fullfile(outputFolder, 'dyloc_rename_mapping.csv');
 
 categories = {'dyloc_bodies','dyloc_objects','dyloc_faces','dyloc_scenes','dyloc_words'};
 
