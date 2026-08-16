@@ -1,0 +1,9 @@
+numpy
+scipy
+matplotlib
+seaborn
+scikit-learn
+scikit-image
+opencv-python
+moviepy
+pymoten

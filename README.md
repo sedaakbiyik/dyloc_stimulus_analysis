@@ -7,6 +7,8 @@ Scripts expect a `stimuli/` folder (path configurable via the `DYLOC_STIMULI_DIR
 environment variable) containing one subfolder per category:
 `dyloc_bodies`, `dyloc_faces`, `dyloc_objects`, `dyloc_scenes`, `dyloc_words`.
 
+Python dependencies: `pip install -r requirements.txt`. `standardize_videos.sh` also requires `ffmpeg` on PATH.
+
 ## Contents
 
 - `check_video_specs.m` — scan all stimulus videos and build a table of specs (duration, fps, resolution, frame count) to catch inconsistencies in a supposedly standardized set.
